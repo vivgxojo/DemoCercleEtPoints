@@ -1,0 +1,30 @@
+﻿<Window x:Class="cercleEtPoints.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:cercleEtPoints"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Cercle" HorizontalAlignment="Left" Margin="30,30,0,0" VerticalAlignment="Top"/>
+        <Label Content="Points" HorizontalAlignment="Left" Margin="460,30,0,0" VerticalAlignment="Top"/>
+        <Label Content="Centre" HorizontalAlignment="Left" Margin="30,80,0,0" VerticalAlignment="Top"/>
+        <Label Content="Rayon" HorizontalAlignment="Left" Margin="30,140,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="txtCX" HorizontalAlignment="Left" Margin="100,80,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="40" Height="25"/>
+        <TextBox Name="txtCY" HorizontalAlignment="Left" Margin="180,80,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="40" Height="25"/>
+        <TextBox Name="txtRayon" HorizontalAlignment="Left" Margin="100,155,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="40" Height="25"/>
+        <Label Content="X" HorizontalAlignment="Left" Margin="130,40,0,0" VerticalAlignment="Top"/>
+        <Label Content="Y" HorizontalAlignment="Left" Margin="200,40,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="txtPX" HorizontalAlignment="Left" Margin="470,110,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="40" Height="25"/>
+        <TextBox Name="txtPY" HorizontalAlignment="Left" Margin="520,110,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="40" Height="25"/>
+        <Label Content="X" HorizontalAlignment="Left" Margin="490,70,0,0" VerticalAlignment="Top"/>
+        <Label Content="Y" HorizontalAlignment="Left" Margin="540,70,0,0" VerticalAlignment="Top"/>
+        <Button Content="Créer" Name="btnCreerCercle" HorizontalAlignment="Left" Margin="110,240,0,0" VerticalAlignment="Top" Click="btnCreerCercle_Click"/>
+        <Button Content="Créer" Name="btnCreerPoint" HorizontalAlignment="Left" Margin="490,240,0,0" VerticalAlignment="Top" Click="btnCreerPoint_Click"/>
+        <ListBox Name="lbCercles" Margin="6,291,489,19"/>
+        <ListBox Name="lbPoints" Margin="481,291,18,19"/>
+        <Button Content="Inclus" Name="btnInclus" HorizontalAlignment="Left" Margin="385,370,0,0" VerticalAlignment="Top" Click="btnInclus_Click"/>
+
+    </Grid>
+</Window>
